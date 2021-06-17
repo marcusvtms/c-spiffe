@@ -1,4 +1,4 @@
-ARG TAG=master
+ARG TAG=fakeissue2
 FROM cspiffe/workload:${TAG}
 
 RUN apt-get update \

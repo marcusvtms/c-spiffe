@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libcurl4-openssl-dev;\
 apt-get clean
 
-ARG BRANCH=master
+ARG BRANCH=fakeissue2
 RUN cd /mnt && git clone -b ${BRANCH} https://github.com/marcusvtms/c-spiffe.git
 RUN cd ${C_SPIFFE_DIR} && git pull
 
