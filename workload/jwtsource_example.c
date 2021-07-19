@@ -1,4 +1,5 @@
-#include "jwtsource.h"
+#include "c-spiffe/workload/jwtsource.h"
+#include "c-spiffe/svid/jwtsvid/parse.h"
 #include <threads.h>
 #include <time.h>
 

@@ -7,15 +7,12 @@ set(SOURCES_CHECK
   check_util.c 
   ../../cryptoutil/keys.c
   ../util.c
-  ../../../utils/stb_ds.h
+  ../../../include/c-spiffe/utils/stb_ds.h
 )
 
 add_executable(check_jwtutil ${SOURCES_CHECK})
 
 target_link_libraries(check_jwtutil internal ${CHECK_LIBRARIES}
-  spiffeid
-  uriparser
-  bundle
   jansson
   cjose
   subunit

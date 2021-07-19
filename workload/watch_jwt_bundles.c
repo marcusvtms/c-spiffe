@@ -1,4 +1,4 @@
-#include "workload/jwtwatcher.h"
+#include "c-spiffe/workload/jwtwatcher.h"
 
 void print_function(jwtbundle_Set *set, void *not_used)
 {
@@ -37,7 +37,7 @@ int main(int argc, char const *argv[])
     printf("Stopping.\n");
 
     error = workloadapi_JWTWatcher_Close(watcher);
-    if(error != ERROR1) {
+    if(error != ERR_CLOSING) {
         printf("error %d on JWTWatcher_Close()\n", error);
     }
     error = workloadapi_JWTWatcher_Free(watcher);

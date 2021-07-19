@@ -1,4 +1,4 @@
-#include "bundle/spiffebundle/source.h"
+#include "c-spiffe/bundle/spiffebundle/source.h"
 #include <check.h>
 
 START_TEST(test_spiffebundle_SourceFromBundle)
@@ -131,7 +131,7 @@ START_TEST(test_spiffebundle_Source_GetspiffeBundleForTrustDomain)
     ret_bundle
         = spiffebundle_Source_GetSpiffeBundleForTrustDomain(NULL, td, &err);
     ck_assert_ptr_eq(ret_bundle, NULL);
-    ck_assert_int_eq(err, ERROR1);
+    ck_assert_int_eq(err, ERR_GET);
     
     spiffeid_TrustDomain_Free(&td);
         

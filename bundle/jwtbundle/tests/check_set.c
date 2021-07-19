@@ -1,7 +1,7 @@
-#include "bundle/jwtbundle/set.h"
-#include "internal/cryptoutil/keys.h"
-#include "internal/jwtutil/util.h"
-#include "spiffeid/trustdomain.h"
+#include "c-spiffe/bundle/jwtbundle/set.h"
+#include "c-spiffe/internal/cryptoutil/keys.h"
+#include "c-spiffe/internal/jwtutil/util.h"
+#include "c-spiffe/spiffeid/trustdomain.h"
 #include <check.h>
 #include <openssl/pem.h>
 
@@ -356,17 +356,17 @@ START_TEST(test_jwtbundle_Set_Print_Errors)
     // negative offset error
     int offset = -1;
     err = jwtbundle_Set_print_stdout(set, offset);
-    ck_assert_int_eq(err, ERROR3);
+    ck_assert_int_eq(err, ERR_BAD_REQUEST);
 
     // NULL set error
     offset = 0;
     err = jwtbundle_Set_Print(set);
-    ck_assert_int_eq(err, ERROR1);
+    ck_assert_int_eq(err, ERR_NULL_DATA);
 
     // NULL BIO* error
     set =(jwtbundle_Set*) 1; //"valid" set
     err = jwtbundle_Set_print_BIO(set, offset, out);
-    ck_assert_int_eq(err, ERROR2);
+    ck_assert_int_eq(err, ERR_NULL_BIO);
 }
 END_TEST
 

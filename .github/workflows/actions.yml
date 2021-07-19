@@ -22,9 +22,6 @@ jobs:
         env:
           USER_NAME: ${{ secrets.DOCKERHUB_USERNAME }}
 
-      - name: Add example.org host
-        run: echo "127.0.0.1 example.org" >> /etc/hosts && cat /etc/hosts
-
       - name: Checkout Project
         uses: actions/checkout@v1
 
@@ -78,7 +75,7 @@ jobs:
 
       - name: Configure CMake
         shell: bash
-        run: cd build && cmake ..
+        run: cd build && cmake -DENABLE_TESTS=ON ..
 
       - name: Build
         shell: bash

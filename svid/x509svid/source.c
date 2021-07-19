@@ -1,4 +1,4 @@
-#include "svid/x509svid/source.h"
+#include "c-spiffe/svid/x509svid/source.h"
 
 x509svid_Source *x509svid_SourceFromSVID(x509svid_SVID *svid)
 {
@@ -39,11 +39,11 @@ x509svid_SVID *x509svid_Source_GetX509SVID(x509svid_Source *source, err_t *err)
                                                       err);
         } else {
             // unknown type
-            *err = ERROR2;
+            *err = ERR_UNKNOWN_TYPE;
         }
     } else {
         // source is NULL
-        *err = ERROR1;
+        *err = ERR_NULL;
     }
 
     return svid;

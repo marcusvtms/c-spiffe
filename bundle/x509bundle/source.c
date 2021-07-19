@@ -1,4 +1,4 @@
-#include "bundle/x509bundle/source.h"
+#include "c-spiffe/bundle/x509bundle/source.h"
 
 x509bundle_Bundle *x509bundle_Source_GetX509BundleForTrustDomain(
     x509bundle_Source *s, const spiffeid_TrustDomain td, err_t *err)
@@ -14,7 +14,7 @@ x509bundle_Bundle *x509bundle_Source_GetX509BundleForTrustDomain(
             s->source.source, td, err);
     } else {
         // unknown type
-        *err = ERROR2;
+        *err = ERR_UNKNOWN_TYPE;
     }
 
     return NULL;
