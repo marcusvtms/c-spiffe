@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C-SPIFFE Library: internal/x509util/util.h File Reference</title>
+<title>C-SPIFFE Library: include/c-spiffe/internal/x509util/util.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_7374381ecdb819c64ee9b6ea2bd3370d.html">internal</a></li><li class="navelem"><a class="el" href="dir_2d804dcbffac9f3b93df5e6ebdc4367a.html">x509util</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_627fe8ff3a8667247b3daef3c2772854.html">c-spiffe</a></li><li class="navelem"><a class="el" href="dir_ec3799f455261267a0a1ecdf1c6e9a1d.html">internal</a></li><li class="navelem"><a class="el" href="dir_2b283fc9c61d2da5f30bb16c573f8efa.html">x509util</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -73,84 +73,47 @@ $(function() {
 <div class="title">util.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="certpool_8h_source.html">internal/x509util/certpool.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="utils_2util_8h_source.html">utils/util.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="certpool_8h_source.html">c-spiffe/internal/x509util/certpool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utils_2util_8h_source.html">c-spiffe/utils/util.h</a>&quot;</code><br />
 <code>#include &lt;openssl/evp.h&gt;</code><br />
 <code>#include &lt;openssl/x509.h&gt;</code><br />
-<code>#include &lt;openssl/x509v3.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for util.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="internal_2x509util_2util_8h__incl.png" border="0" usemap="#ainternal_2x509util_2util_8h" alt=""/></div>
-<map name="ainternal_2x509util_2util_8h" id="ainternal_2x509util_2util_8h">
-<area shape="rect" title=" " alt="" coords="227,5,370,32"/>
-<area shape="rect" href="certpool_8h.html" title=" " alt="" coords="89,80,261,107"/>
-<area shape="rect" href="utils_2util_8h.html" title=" " alt="" coords="33,155,111,181"/>
-<area shape="rect" title=" " alt="" coords="274,229,377,256"/>
-<area shape="rect" title=" " alt="" coords="203,155,311,181"/>
-<area shape="rect" title=" " alt="" coords="387,80,509,107"/>
-<area shape="rect" href="stb__ds_8h.html" title=" " alt="" coords="125,229,224,256"/>
-<area shape="rect" title=" " alt="" coords="185,304,253,331"/>
-<area shape="rect" title=" " alt="" coords="5,304,69,331"/>
-<area shape="rect" title=" " alt="" coords="98,304,161,331"/>
-<area shape="rect" title=" " alt="" coords="27,229,101,256"/>
+<div class="center"><img src="internal_2x509util_2util_8h__incl.png" border="0" usemap="#ainclude_2c-spiffe_2internal_2x509util_2util_8h" alt=""/></div>
+<map name="ainclude_2c-spiffe_2internal_2x509util_2util_8h" id="ainclude_2c-spiffe_2internal_2x509util_2util_8h">
+<area shape="rect" title=" " alt="" coords="355,5,510,47"/>
+<area shape="rect" href="certpool_8h.html" title=" " alt="" coords="295,95,453,136"/>
+<area shape="rect" href="utils_2util_8h.html" title=" " alt="" coords="243,184,366,211"/>
+<area shape="rect" title=" " alt="" coords="491,259,593,285"/>
+<area shape="rect" title=" " alt="" coords="393,184,501,211"/>
+<area shape="rect" href="stb__ds_8h.html" title=" " alt="" coords="63,259,208,285"/>
+<area shape="rect" href="error_8h.html" title=" " alt="" coords="235,259,367,285"/>
+<area shape="rect" title=" " alt="" coords="391,259,466,285"/>
+<area shape="rect" title=" " alt="" coords="5,333,73,360"/>
+<area shape="rect" title=" " alt="" coords="98,333,162,360"/>
+<area shape="rect" title=" " alt="" coords="187,333,249,360"/>
+<area shape="rect" title=" " alt="" coords="274,333,335,360"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="internal_2x509util_2util_8h__dep__incl.png" border="0" usemap="#ainternal_2x509util_2util_8hdep" alt=""/></div>
-<map name="ainternal_2x509util_2util_8hdep" id="ainternal_2x509util_2util_8hdep">
-<area shape="rect" title=" " alt="" coords="993,5,1135,32"/>
-<area shape="rect" href="spiffebundle_2bundle_8c.html" title=" " alt="" coords="81,80,215,121"/>
-<area shape="rect" href="spiffebundle_2tests_2check__bundle_8c.html" title=" " alt="" coords="239,80,388,121"/>
-<area shape="rect" href="x509bundle_2bundle_8c.html" title=" " alt="" coords="412,87,593,114"/>
-<area shape="rect" href="x509bundle_2tests_2check__bundle_8c.html" title=" " alt="" coords="617,80,780,121"/>
-<area shape="rect" href="x509bundle_2tests_2check__set_8c.html" title=" " alt="" coords="804,80,967,121"/>
-<area shape="rect" href="internal_2x509util_2tests_2check__util_8c.html" title=" " alt="" coords="991,80,1137,121"/>
-<area shape="rect" href="internal_2x509util_2util_8c.html" title=" " alt="" coords="1161,87,1303,114"/>
-<area shape="rect" href="x509util_8h.html" title=" " alt="" coords="1328,87,1451,114"/>
-<area shape="rect" href="x509svid_2svid_8h.html" title=" " alt="" coords="1475,87,1613,114"/>
-<area shape="rect" href="verify_8c.html" title=" " alt="" coords="2005,177,2152,203"/>
-<area shape="rect" href="client_8cc.html" title=" " alt="" coords="2867,341,2994,367"/>
-<area shape="rect" href="mode_8h.html" title=" " alt="" coords="681,609,794,635"/>
-<area shape="rect" href="svid_2x509svid_2source_8h.html" title=" " alt="" coords="416,519,571,546"/>
-<area shape="rect" href="x509svid_8h.html" title=" " alt="" coords="94,609,205,635"/>
-<area shape="rect" href="x509svid_2svid_8c.html" title=" " alt="" coords="1632,177,1771,203"/>
-<area shape="rect" href="x509svid_2tests_2check__svid_8c.html" title=" " alt="" coords="1795,169,1930,211"/>
-<area shape="rect" href="client_8h.html" title=" " alt="" coords="1533,259,1651,285"/>
-<area shape="rect" href="check__client_8cc.html" title=" " alt="" coords="2696,333,2843,375"/>
-<area shape="rect" href="workload_2watcher_8h.html" title=" " alt="" coords="1157,341,1291,367"/>
-<area shape="rect" href="check__x509source_8c.html" title=" " alt="" coords="955,512,1101,553"/>
-<area shape="rect" href="x509source_8h.html" title=" " alt="" coords="764,430,919,457"/>
-<area shape="rect" href="x509context_8h.html" title=" " alt="" coords="1301,177,1459,203"/>
-<area shape="rect" href="client_2main_8c.html" title=" " alt="" coords="9,780,140,821"/>
-<area shape="rect" href="server_2main_8c.html" title=" " alt="" coords="1097,780,1228,821"/>
-<area shape="rect" href="dial_8c.html" title=" " alt="" coords="463,787,564,814"/>
-<area shape="rect" href="dial_8h.html" title=" " alt="" coords="504,698,605,725"/>
-<area shape="rect" href="listen_8c.html" title=" " alt="" coords="164,787,276,814"/>
-<area shape="rect" href="spiffetls_8h.html" title=" " alt="" coords="946,787,1073,814"/>
-<area shape="rect" href="check__peerid_8c.html" title=" " alt="" coords="300,780,439,821"/>
-<area shape="rect" href="listen_8h.html" title=" " alt="" coords="981,698,1093,725"/>
-<area shape="rect" href="mode_8c.html" title=" " alt="" coords="681,698,794,725"/>
-<area shape="rect" href="check__mode_8c.html" title=" " alt="" coords="819,691,957,732"/>
-<area shape="rect" href="c__dial__example_8c.html" title=" " alt="" coords="588,787,759,814"/>
-<area shape="rect" href="check__dial_8c.html" title=" " alt="" coords="783,780,921,821"/>
-<area shape="rect" href="config_8h.html" title=" " alt="" coords="209,691,327,732"/>
-<area shape="rect" href="svid_2x509svid_2source_8c.html" title=" " alt="" coords="400,609,555,635"/>
-<area shape="rect" href="check__svidsource_8c.html" title=" " alt="" coords="229,601,376,643"/>
-<area shape="rect" href="test__install__getsvid_8c.html" title=" " alt="" coords="1519,333,1665,375"/>
-<area shape="rect" href="c__client__example_8c.html" title=" " alt="" coords="1690,341,1878,367"/>
-<area shape="rect" href="c__client__example__bundle_8c.html" title=" " alt="" coords="1903,333,2081,375"/>
-<area shape="rect" href="c__client__example__validate_8c.html" title=" " alt="" coords="2105,333,2284,375"/>
-<area shape="rect" href="cpp__client__example_8cc.html" title=" " alt="" coords="2309,333,2446,375"/>
-<area shape="rect" href="jwtwatcher_8c.html" title=" " alt="" coords="1729,430,1879,457"/>
-<area shape="rect" href="jwtwatcher_8h.html" title=" " alt="" coords="2470,341,2621,367"/>
-<area shape="rect" href="workload_8h.html" title=" " alt="" coords="1463,519,1603,546"/>
-<area shape="rect" href="workload_2watcher_8c.html" title=" " alt="" coords="1305,519,1439,546"/>
-<area shape="rect" href="workload_2tests_2check__watcher_8c.html" title=" " alt="" coords="993,423,1140,464"/>
-<area shape="rect" href="x509source_8c.html" title=" " alt="" coords="1125,519,1280,546"/>
-<area shape="rect" href="bundle_2x509bundle_2source_8h.html" title=" " alt="" coords="646,519,829,546"/>
+<div class="center"><img src="internal_2x509util_2util_8h__dep__incl.png" border="0" usemap="#ainclude_2c-spiffe_2internal_2x509util_2util_8hdep" alt=""/></div>
+<map name="ainclude_2c-spiffe_2internal_2x509util_2util_8hdep" id="ainclude_2c-spiffe_2internal_2x509util_2util_8hdep">
+<area shape="rect" title=" " alt="" coords="1001,5,1156,47"/>
+<area shape="rect" href="spiffebundle_2bundle_8c.html" title=" " alt="" coords="5,95,139,136"/>
+<area shape="rect" href="spiffebundle_2tests_2check__bundle_8c.html" title=" " alt="" coords="163,95,312,136"/>
+<area shape="rect" href="x509bundle_2bundle_8c.html" title=" " alt="" coords="336,102,517,129"/>
+<area shape="rect" href="x509bundle_2tests_2check__bundle_8c.html" title=" " alt="" coords="541,95,704,136"/>
+<area shape="rect" href="x509bundle_2tests_2check__set_8c.html" title=" " alt="" coords="728,95,891,136"/>
+<area shape="rect" href="x509util_8h.html" title=" " alt="" coords="915,95,1069,136"/>
+<area shape="rect" href="internal_2x509util_2tests_2check__util_8c.html" title=" " alt="" coords="1094,95,1239,136"/>
+<area shape="rect" href="internal_2x509util_2util_8c.html" title=" " alt="" coords="1263,102,1406,129"/>
+<area shape="rect" href="x509svid_2svid_8c.html" title=" " alt="" coords="1431,102,1569,129"/>
+<area shape="rect" href="x509svid_2tests_2check__svid_8c.html" title=" " alt="" coords="1594,95,1729,136"/>
+<area shape="rect" href="verify_8c.html" title=" " alt="" coords="1753,102,1900,129"/>
+<area shape="rect" href="client_8cc.html" title=" " alt="" coords="1925,102,2051,129"/>
 </map>
 </div>
 </div>
@@ -162,9 +125,9 @@ Functions</h2></td></tr>
 <tr class="separator:a34f265cff258690e68c50f23b29842d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac99cb462b909be0ebbfbf382d318ea9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="internal_2x509util_2util_8h.html#aac99cb462b909be0ebbfbf382d318ea9">x509util_CertsEqual</a> (X509 **certs1, X509 **certs2)</td></tr>
 <tr class="separator:aac99cb462b909be0ebbfbf382d318ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a462dfd05994790b92fbe8174fdb44b32"><td class="memItemLeft" align="right" valign="top">X509 **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="internal_2x509util_2util_8h.html#a462dfd05994790b92fbe8174fdb44b32">x509util_ParseCertificates</a> (const <a class="el" href="utils_2util_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> *bytes, const size_t len, <a class="el" href="utils_2util_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *<a class="el" href="check__endpoint_8c.html#aac2cb6376062ef4d6f16d129f52ea9e4">err</a>)</td></tr>
+<tr class="memitem:a462dfd05994790b92fbe8174fdb44b32"><td class="memItemLeft" align="right" valign="top">X509 **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="internal_2x509util_2util_8h.html#a462dfd05994790b92fbe8174fdb44b32">x509util_ParseCertificates</a> (const <a class="el" href="utils_2util_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> *bytes, const size_t len, <a class="el" href="error_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *<a class="el" href="check__endpoint_8c.html#aac2cb6376062ef4d6f16d129f52ea9e4">err</a>)</td></tr>
 <tr class="separator:a462dfd05994790b92fbe8174fdb44b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a607ca23af6d687cbe8f988de1c775ab7"><td class="memItemLeft" align="right" valign="top">EVP_PKEY *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="internal_2x509util_2util_8h.html#a607ca23af6d687cbe8f988de1c775ab7">x509util_ParsePrivateKey</a> (const <a class="el" href="utils_2util_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> *bytes, const size_t len, <a class="el" href="utils_2util_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *<a class="el" href="check__endpoint_8c.html#aac2cb6376062ef4d6f16d129f52ea9e4">err</a>)</td></tr>
+<tr class="memitem:a607ca23af6d687cbe8f988de1c775ab7"><td class="memItemLeft" align="right" valign="top">EVP_PKEY *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="internal_2x509util_2util_8h.html#a607ca23af6d687cbe8f988de1c775ab7">x509util_ParsePrivateKey</a> (const <a class="el" href="utils_2util_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> *bytes, const size_t len, <a class="el" href="error_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *<a class="el" href="check__endpoint_8c.html#aac2cb6376062ef4d6f16d129f52ea9e4">err</a>)</td></tr>
 <tr class="separator:a607ca23af6d687cbe8f988de1c775ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e33532dce845c56ec7e4d7a7cccd10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structx509util__CertPool.html">x509util_CertPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="internal_2x509util_2util_8h.html#a31e33532dce845c56ec7e4d7a7cccd10">x509util_NewCertPool</a> (X509 **<a class="el" href="check__x509source_8c.html#a86cc65f14198e068d60b43bcf233a074">certs</a>)</td></tr>
 <tr class="separator:a31e33532dce845c56ec7e4d7a7cccd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -280,7 +243,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="utils_2util_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="error_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *&#160;</td>
           <td class="paramname"><em>err</em>&#160;</td>
         </tr>
         <tr>
@@ -324,7 +287,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="utils_2util_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="error_8h.html#a5362d878a3b55147d5cfd29820512556">err_t</a> *&#160;</td>
           <td class="paramname"><em>err</em>&#160;</td>
         </tr>
         <tr>
