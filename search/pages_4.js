@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['http_20over_20tls_20with_20jwt_2230',['HTTP over TLS with JWT',['../md_examples_spiffe_jwt_README.html',1,'']]]
+  ['minor_2dinstallation_2402',['MINOR-INSTALLATION',['../md_MINOR_INSTALLATION.html',1,'']]]
 ];

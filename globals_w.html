@@ -78,6 +78,12 @@ $(function() {
 <li>WARRANTIES
 : <a class="el" href="COPYING-CMAKE-SCRIPTS_8txt.html#ae043f286005b7db79763a5939024c0b6">COPYING-CMAKE-SCRIPTS.txt</a>
 </li>
+<li>watch_JWTBundles()
+: <a class="el" href="spiffe-watcher_2main_8c.html#aedf3ddab23b8828acd0e390fe79a3766">main.c</a>
+</li>
+<li>watch_X509SVIDs()
+: <a class="el" href="spiffe-watcher_2main_8c.html#ae24d99a1d16e9e918046ba83c2f25cad">main.c</a>
+</li>
 <li>watcher
 : <a class="el" href="check__jwtwatcher_8c.html#ab7cadd9a4a6444d1d3717dbfe6d6636d">check_jwtwatcher.c</a>
 , <a class="el" href="workload_2tests_2check__watcher_8c.html#aa38fc9fc816048bc443c79655f9704ed">check_watcher.c</a>
@@ -91,12 +97,12 @@ $(function() {
 , <a class="el" href="check__x509source_8c.html#a3826ba68fb4ac4039b62c1126da6e410">check_x509source.c</a>
 </li>
 <li>workloadapi_Backoff_NextTime()
-: <a class="el" href="backoff_8h.html#a9b29507f76e9b1fb1323e2e0c2cb9b8e">backoff.h</a>
-, <a class="el" href="backoff_8c.html#a9b29507f76e9b1fb1323e2e0c2cb9b8e">backoff.c</a>
+: <a class="el" href="backoff_8c.html#a9b29507f76e9b1fb1323e2e0c2cb9b8e">backoff.c</a>
+, <a class="el" href="backoff_8h.html#a9b29507f76e9b1fb1323e2e0c2cb9b8e">backoff.h</a>
 </li>
 <li>workloadapi_Backoff_Reset()
-: <a class="el" href="backoff_8c.html#aead609d40d2a3da566ce13940a024b4c">backoff.c</a>
-, <a class="el" href="backoff_8h.html#aead609d40d2a3da566ce13940a024b4c">backoff.h</a>
+: <a class="el" href="backoff_8h.html#aead609d40d2a3da566ce13940a024b4c">backoff.h</a>
+, <a class="el" href="backoff_8c.html#aead609d40d2a3da566ce13940a024b4c">backoff.c</a>
 </li>
 <li>workloadapi_Client
 : <a class="el" href="client_8h.html#a88d3abac933b191dfa55024a448f5d9e">client.h</a>
@@ -112,8 +118,8 @@ $(function() {
 , <a class="el" href="client_8cc.html#a9e77c6b79e07eb76bb0068d79b6e9057">client.cc</a>
 </li>
 <li>workloadapi_Client_ApplyOptionWithArg()
-: <a class="el" href="client_8h.html#a269b6461d39573cb87c5525a7bf27b65">client.h</a>
-, <a class="el" href="client_8cc.html#a269b6461d39573cb87c5525a7bf27b65">client.cc</a>
+: <a class="el" href="client_8cc.html#a269b6461d39573cb87c5525a7bf27b65">client.cc</a>
+, <a class="el" href="client_8h.html#a269b6461d39573cb87c5525a7bf27b65">client.h</a>
 </li>
 <li>workloadapi_Client_ClearHeaders()
 : <a class="el" href="client_8h.html#a94b175f8a4c1adef0d22e4f46af8aca2">client.h</a>
@@ -136,8 +142,8 @@ $(function() {
 , <a class="el" href="client_8cc.html#a28ad9c2c08ca0ab19d92eefbdf8f137d">client.cc</a>
 </li>
 <li>workloadapi_Client_FetchJWTSVID()
-: <a class="el" href="client_8cc.html#aaf02bafee0122340b76e03da992aea7a">client.cc</a>
-, <a class="el" href="client_8h.html#aaf02bafee0122340b76e03da992aea7a">client.h</a>
+: <a class="el" href="client_8h.html#aaf02bafee0122340b76e03da992aea7a">client.h</a>
+, <a class="el" href="client_8cc.html#aaf02bafee0122340b76e03da992aea7a">client.cc</a>
 </li>
 <li>workloadapi_Client_FetchX509Bundles()
 : <a class="el" href="client_8h.html#ada0587fcf4fae194ce2535d86a57a818">client.h</a>
@@ -157,9 +163,9 @@ $(function() {
 </li>
 <li>workloadapi_Client_Free()
 : <a class="el" href="workload_2tests_2check__watcher_8c.html#af8cd2e2cea831099eff65995d010b827">check_watcher.c</a>
-, <a class="el" href="check__jwtwatcher_8c.html#af8cd2e2cea831099eff65995d010b827">check_jwtwatcher.c</a>
-, <a class="el" href="client_8h.html#a037d3353e80bf1733d34a200d328c607">client.h</a>
 , <a class="el" href="client_8cc.html#a037d3353e80bf1733d34a200d328c607">client.cc</a>
+, <a class="el" href="client_8h.html#a037d3353e80bf1733d34a200d328c607">client.h</a>
+, <a class="el" href="check__jwtwatcher_8c.html#af8cd2e2cea831099eff65995d010b827">check_jwtwatcher.c</a>
 </li>
 <li>workloadapi_Client_HandleWatchError()
 : <a class="el" href="client_8h.html#ad284f5796f2c60406195eeff6fdbf9e4">client.h</a>
@@ -189,21 +195,21 @@ $(function() {
 : <a class="el" href="client_8h.html#a6da340b3bb67217f990e7e684e49b8a0">client.h</a>
 , <a class="el" href="client_8cc.html#a6da340b3bb67217f990e7e684e49b8a0">client.cc</a>
 </li>
-<li>workloadapi_Client_watchJWTBundles()
-: <a class="el" href="client_8h.html#acd30414b7144189019a15c6fe1c34d05">client.h</a>
-, <a class="el" href="client_8cc.html#acd30414b7144189019a15c6fe1c34d05">client.cc</a>
-</li>
 <li>workloadapi_Client_WatchJWTBundles()
 : <a class="el" href="client_8h.html#af681b79942fe9debb950b40c659af305">client.h</a>
 , <a class="el" href="client_8cc.html#af681b79942fe9debb950b40c659af305">client.cc</a>
 </li>
-<li>workloadapi_Client_watchX509Context()
-: <a class="el" href="client_8cc.html#abe2ce42ddeb0fbd990e7cc6de13100f7">client.cc</a>
-, <a class="el" href="client_8h.html#a04c4f7427577fccae2968411a46335cc">client.h</a>
+<li>workloadapi_Client_watchJWTBundles()
+: <a class="el" href="client_8h.html#acd30414b7144189019a15c6fe1c34d05">client.h</a>
+, <a class="el" href="client_8cc.html#acd30414b7144189019a15c6fe1c34d05">client.cc</a>
 </li>
 <li>workloadapi_Client_WatchX509Context()
-: <a class="el" href="client_8h.html#ae28e9754a99fd6b7f238cdc646e8b254">client.h</a>
-, <a class="el" href="client_8cc.html#ae28e9754a99fd6b7f238cdc646e8b254">client.cc</a>
+: <a class="el" href="client_8cc.html#ae28e9754a99fd6b7f238cdc646e8b254">client.cc</a>
+, <a class="el" href="client_8h.html#ae28e9754a99fd6b7f238cdc646e8b254">client.h</a>
+</li>
+<li>workloadapi_Client_watchX509Context()
+: <a class="el" href="client_8h.html#a04c4f7427577fccae2968411a46335cc">client.h</a>
+, <a class="el" href="client_8cc.html#abe2ce42ddeb0fbd990e7cc6de13100f7">client.cc</a>
 </li>
 <li>workloadapi_ClientOption
 : <a class="el" href="client_8h.html#af8a0bb34e0569820580f582901511258">client.h</a>
@@ -342,8 +348,8 @@ $(function() {
 , <a class="el" href="check__client_8cc.html#a00dde0151c34d2256cf3daac239d3203">check_client.cc</a>
 </li>
 <li>workloadapi_parseX509Context()
-: <a class="el" href="client_8cc.html#a058ee5070ca856fa6e224a2914cc476d">client.cc</a>
-, <a class="el" href="check__client_8cc.html#a058ee5070ca856fa6e224a2914cc476d">check_client.cc</a>
+: <a class="el" href="check__client_8cc.html#a058ee5070ca856fa6e224a2914cc476d">check_client.cc</a>
+, <a class="el" href="client_8cc.html#a058ee5070ca856fa6e224a2914cc476d">client.cc</a>
 </li>
 <li>workloadapi_parseX509SVIDs()
 : <a class="el" href="client_8cc.html#a63db55cafa8b12c5cc2b8ba325fe0828">client.cc</a>
@@ -366,12 +372,12 @@ $(function() {
 , <a class="el" href="workload_2watcher_8c.html#a858c5b6432d725c6a78f403395d15775">watcher.c</a>
 </li>
 <li>workloadapi_Watcher_OnX509ContextUpdate()
-: <a class="el" href="workload_2watcher_8c.html#a2443c7dd4a6bc8c269104a056bf6c1fa">watcher.c</a>
-, <a class="el" href="workload_2watcher_8h.html#a2443c7dd4a6bc8c269104a056bf6c1fa">watcher.h</a>
+: <a class="el" href="workload_2watcher_8h.html#a2443c7dd4a6bc8c269104a056bf6c1fa">watcher.h</a>
+, <a class="el" href="workload_2watcher_8c.html#a2443c7dd4a6bc8c269104a056bf6c1fa">watcher.c</a>
 </li>
 <li>workloadapi_Watcher_OnX509ContextWatchError()
-: <a class="el" href="workload_2watcher_8h.html#af58b63683b0d98a2bdb11ed2e1f86cf2">watcher.h</a>
-, <a class="el" href="workload_2watcher_8c.html#af58b63683b0d98a2bdb11ed2e1f86cf2">watcher.c</a>
+: <a class="el" href="workload_2watcher_8c.html#af58b63683b0d98a2bdb11ed2e1f86cf2">watcher.c</a>
+, <a class="el" href="workload_2watcher_8h.html#af58b63683b0d98a2bdb11ed2e1f86cf2">watcher.h</a>
 </li>
 <li>workloadapi_Watcher_Start()
 : <a class="el" href="workload_2watcher_8h.html#ad3672b3be35b3f9d8e9efa4f0e200bcc">watcher.h</a>
@@ -387,9 +393,9 @@ $(function() {
 , <a class="el" href="workload_2watcher_8c.html#aaa40d5344cf021cdc0352210a5fe0fd1">watcher.c</a>
 </li>
 <li>workloadapi_Watcher_WaitUntilUpdated()
-: <a class="el" href="workload_2watcher_8c.html#a7d21c51927359a0a0d966605d0e6cb6a">watcher.c</a>
-, <a class="el" href="workload_2watcher_8h.html#a7d21c51927359a0a0d966605d0e6cb6a">watcher.h</a>
+: <a class="el" href="workload_2watcher_8h.html#a7d21c51927359a0a0d966605d0e6cb6a">watcher.h</a>
 , <a class="el" href="workload_2tests_2check__watcher_8c.html#acc2067fd7e0c2153c59675156ae15099">check_watcher.c</a>
+, <a class="el" href="workload_2watcher_8c.html#a7d21c51927359a0a0d966605d0e6cb6a">watcher.c</a>
 </li>
 <li>workloadapi_Watcher_X509backgroundFunc()
 : <a class="el" href="workload_2watcher_8c.html#af64277c1963409b047eaf776bb23decf">watcher.c</a>
@@ -413,8 +419,8 @@ $(function() {
 </li>
 <li>workloadapi_X509Source_Free()
 : <a class="el" href="x509source_8h.html#a1d8dc819f8db486a571bae689d3a3ffa">x509source.h</a>
-, <a class="el" href="x509source_8c.html#a1d8dc819f8db486a571bae689d3a3ffa">x509source.c</a>
 , <a class="el" href="check__x509source_8c.html#abae9d9db69da8904172b298a170001f4">check_x509source.c</a>
+, <a class="el" href="x509source_8c.html#a1d8dc819f8db486a571bae689d3a3ffa">x509source.c</a>
 </li>
 <li>workloadapi_X509Source_GetX509BundleForTrustDomain()
 : <a class="el" href="x509source_8h.html#aed6e1c9c88cb08b4b14fe9bad0831f13">x509source.h</a>
@@ -435,6 +441,10 @@ $(function() {
 <li>workloadapi_X509Source_WaitUntilUpdated()
 : <a class="el" href="x509source_8h.html#a4e7b56525e357fbf1d749c4c8050a32a">x509source.h</a>
 , <a class="el" href="x509source_8c.html#a4e7b56525e357fbf1d749c4c8050a32a">x509source.c</a>
+</li>
+<li>write_HTTPS()
+: <a class="el" href="server_8c.html#a0029889dadf97212042eecd4b4163469">server.c</a>
+, <a class="el" href="check__server_8c.html#a06260c32a5f126ea5affdf06bb029808">check_server.c</a>
 </li>
 </ul>
 </div><!-- contents -->
